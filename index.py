@@ -29,7 +29,7 @@ def greater_sec(oglist):
     newlist= []
     for t in oglist:
         if t>oglist[1]:
-            newlist.append([t])
+            newlist.append(t)
     if len(newlist) <2:
         return False
     else: 
